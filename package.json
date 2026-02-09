@@ -1,0 +1,27 @@
+{
+  "name": "syrian-sales-pro-ai",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "AI-powered sales assistant with Appwrite authentication and OpenAI integration",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "build:check": "vite build && echo Build successful!"
+  },
+  "dependencies": {
+    "@google/genai": "^1.38.0",
+    "@supabase/supabase-js": "^2.47.14",
+    "appwrite": "^22.0.0",
+    "openai": "^4.77.3",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
+}
